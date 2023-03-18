@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{47df0a84-5ce2-4822-86f2-7989e318c2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{d9b5aa1c-19bb-4588-98ad-14e975d0d6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\model">
+      <UniqueIdentifier>{ee7b2707-ffd5-4808-b1fd-a4c703312d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{b426648d-5831-41f9-a88a-95bf2ef95bc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Reservoir.h">
+      <Filter>domain\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation.h">
+      <Filter>presentation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
